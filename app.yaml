@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/ramakrishnadandu/my-helm-argocd-demo.git
     targetRevision: HEAD
-    path: myapp
+    path: .
 
   destination:
     server: https://kubernetes.default.svc
